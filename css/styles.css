@@ -433,7 +433,7 @@ section .work {
 }
 /*--------------СТОРІНКА ПОРТФОЛІО-----------------------*/
 
-/*header*/
+/*head*/
 
 li [type] {
   color: var(--title-text-color);
@@ -471,7 +471,7 @@ li [type]:hover {
 }
 
 /*-----------------Портфолио*/
-.portfolio .list-portfolio {
+.list-portfolio {
   display: flex;
   flex-wrap: wrap;
   /*padding-bottom: 94px;*/
