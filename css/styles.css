@@ -12,7 +12,6 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--title-text-color);
   font-size: 14px;
-  width: 1600px;
 }
 
 .section {
@@ -29,7 +28,7 @@ body {
 
 header {
   background: #ffffff;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 p,
@@ -236,7 +235,7 @@ header .header {
   background: #188ce8;
 }
 /*------------------benefits---------------------*/
-section .work {
+div .work {
   padding: 94px auto;
 }
 
@@ -247,7 +246,6 @@ section .work {
 
 .benefits .item {
   width: 270px;
-  height: 75px;
   justify-content: center;
 }
 
@@ -256,6 +254,7 @@ section .work {
 }
 
 .benefits {
+  padding-bottom: 94px;
 }
 
 .benefits h3 {
@@ -320,6 +319,11 @@ section .work {
   background-color: #f5f4fa;
 }
 
+.about-team {
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
 .team .title-team {
   margin-bottom: 50px;
   font-weight: 700;
@@ -334,7 +338,6 @@ section .work {
 }
 
 .item-team h3 {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -347,8 +350,6 @@ section .work {
   font-size: 16px;
   line-height: 1.18;
   margin-top: 10px;
-  padding-bottom: 30px;
-
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -482,6 +483,7 @@ li [type]:hover {
 .title-card {
   background: #ffffff;
   border: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 
 .list-portfolio h2 {
@@ -489,10 +491,6 @@ li [type]:hover {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  margin-top: 20px;
-  margin-bottom: 4px;
-  padding: 0 24px;
 }
 
 .hidden-title {
@@ -510,9 +508,6 @@ li [type]:hover {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
-  margin-bottom: 20px;
-  padding: 0 24px;
 }
 
 .list-portfolio a {
