@@ -17,12 +17,12 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -253,10 +253,6 @@ div .work {
   margin-right: 30px;
 }
 
-.benefits {
-  padding-bottom: 94px;
-}
-
 .benefits h3 {
   font-weight: 700;
   font-size: 14px;
@@ -321,7 +317,7 @@ div .work {
 
 .about-team {
   padding-bottom: 30px;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .team .title-team {
