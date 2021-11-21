@@ -17,13 +17,13 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 header {
@@ -237,6 +237,9 @@ header .header {
 /*------------------benefits---------------------*/
 div .work {
   padding: 94px auto;
+}
+.section.no-padding {
+  padding-bottom: 0;
 }
 
 .benefits .list {
